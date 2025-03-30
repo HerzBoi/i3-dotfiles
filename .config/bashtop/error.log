@@ -1,0 +1,31 @@
+ 
+New instance of bashtop version: 0.9.25 Pid: 1117
+ 
+New instance of bashtop version: 0.9.25 Pid: 33284
+ 
+New instance of bashtop version: 0.9.25 Pid: 2572
+ 
+New instance of bashtop version: 0.9.25 Pid: 21001
+ 
+New instance of bashtop version: 0.9.25 Pid: 2249
+ 
+New instance of bashtop version: 0.9.25 Pid: 3730
+ 
+New instance of bashtop version: 0.9.25 Pid: 8492
+07:24:29 PM ERROR: On line 4353 
+07:24:29 PM ERROR: On line 4353 
+stty: 'standard input': Input/output error
+07:24:29 PM ERROR: On line 4356 
+/usr/bin/bashtop: line 3570: echo: write error: Input/output error
+07:24:29 PM ERROR: On line 3570 
+07:24:29 PM ERROR: On line 4714 
+ 
+New instance of bashtop version: 0.9.25 Pid: 7170
+ 
+New instance of bashtop version: 0.9.25 Pid: 5691
+ 
+New instance of bashtop version: 0.9.25 Pid: 1236
+ 
+New instance of bashtop version: 0.9.25 Pid: 2272
+ 
+New instance of bashtop version: 0.9.25 Pid: 2533

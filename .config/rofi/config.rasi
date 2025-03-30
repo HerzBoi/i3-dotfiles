@@ -1,0 +1,6 @@
+configuration {
+ 
+}
+
+@theme "catppuccin-default"
+//@import "catppuccin-mocha"
