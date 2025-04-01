@@ -1,5 +1,7 @@
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
+# TODO Add comments
+
 set $mod Mod4
 
 font JetbrainsMono Nerd Font 8
@@ -40,9 +42,6 @@ exec_always --no-startup-id autotiling
 
 ## custom keybinds
 
-# wallpaper choser
-bindsym $mod+Shift+w exec ~/.config/scripts/wallpaper-choser.sh
-
 # flameshot
 bindsym $mod+Print exec flameshot gui
 
@@ -55,11 +54,17 @@ bindsym $mod+shift+v exec rofi -modi "clipboard:greenclip print" -show clipboard
 # firefox
 bindsym $mod+b exec firefox
 
+# toggle polybar
+bindsym $mod+shift+x exec polybar-msg cmd toggle
+
+# Shortcut choser
+bindsym $mod+Shift+w exec $HOME/Dotfiles/.config/scripts/shortcut-viewer.sh
+
+# wallpaper choser
+# bindsym $mod+Shift+w exec ~/.config/scripts/wallpaper-choser.sh
+
 # night light
-bindsym $mod+shift+t exec ~/.config/scripts/night-tint.sh
-
-
-
+# bindsym $mod+shift+t exec ~/.config/scripts/night-tint.sh
 
 
 # Use pactl to adjust volume in PulseAudio.
@@ -220,5 +225,6 @@ client.unfocused        #6c7086 #6c7086 #ffffff
 client.urgent           #f38ba8 #f38ba8 #ffffff
 client.placeholder      #89b4fa #89b4fa #ffffff
 
+# makes youtube picture in picture visible on all pages
 
 for_window [title="Picture-in-Picture"] sticky enable
