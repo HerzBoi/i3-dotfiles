@@ -28,5 +28,6 @@ alias installpkg='sudo pacman -S'
 alias batlvl='cat /sys/class/power_supply/BAT0/capacity'
 alias ff='fastfetch'
 alias tock='./Documents/tock/target/release/tock'
+alias files='ranger'
 
 . "$HOME/.cargo/env"
